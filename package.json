@@ -1,11 +1,15 @@
 {
-  "name": "bootstrap-dev-environment",
+  "name": "pdp-setup",
   "version": "1.0.0",
-  "description": "Scripts for bootstrapping a development environment. Checks for and installs required dependencies.",
-  "main": "bootstrap.js",
+  "description": "Scripts for setting up a development environment. Checks for and installs required dependencies.",
+  "main": "setup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node setup.js"
   },
   "author": "Paul Vasiu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.5.4",
+    "shelljs": "^0.8.5"
+  }
 }
