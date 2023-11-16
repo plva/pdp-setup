@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-dev-environment",
+  "version": "1.0.0",
+  "description": "Scripts for bootstrapping a development environment. Checks for and installs required dependencies.",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Vasiu",
+  "license": "ISC"
+}
